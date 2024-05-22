@@ -41,13 +41,11 @@ function App() {
   }, []);
 
   function handleStartRemovePlace(id) {
-    // modal.current.open();
     setModalIsOpen(true);
     selectedPlace.current = id;
   }
 
   function handleStopRemovePlace() {
-    // modal.current.close();
     setModalIsOpen(false);
   }
 
